@@ -4,7 +4,7 @@ import { Container } from "./styles";
 
 function Header() {
   return (
-    <div>
+    <Container>
       <nav>
         <div>PORTFOLIOJESSY</div>
         <ul>
@@ -15,7 +15,7 @@ function Header() {
           <li>Store</li>
         </ul>
       </nav>
-    </div>
+    </Container>
   );
 }
 
